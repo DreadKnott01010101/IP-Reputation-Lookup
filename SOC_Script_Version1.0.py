@@ -23,8 +23,7 @@ message = "Analyzing " + str(output)
 # creating a message box 
 msg = msgbox(message, title) 
 
-#1 (1/18/23)To Oppen Chrome but it breaks the Script in Sublime Editor but not Terminal
-#2 (1/19/23) As of this date this code no longer breaks this script
+#(1/18/23)To Open Chrome but it breaks the Script in Sublime Editor but not Terminal
 import webbrowser
 webbrowser.get("C:/Program Files/Google/Chrome/Application/chrome.exe %s").open("google.com")
 
